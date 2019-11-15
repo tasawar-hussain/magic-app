@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/magic-app/static/css/main.b100e6da.chunk.css",
-    "main.js": "/magic-app/static/js/main.5d458c28.chunk.js",
-    "main.js.map": "/magic-app/static/js/main.5d458c28.chunk.js.map",
+    "main.js": "/magic-app/static/js/main.4e5b2079.chunk.js",
+    "main.js.map": "/magic-app/static/js/main.4e5b2079.chunk.js.map",
     "runtime-main.js": "/magic-app/static/js/runtime-main.34b2f2d2.js",
     "runtime-main.js.map": "/magic-app/static/js/runtime-main.34b2f2d2.js.map",
     "static/css/2.510409cd.chunk.css": "/magic-app/static/css/2.510409cd.chunk.css",
     "static/js/2.dd4df53d.chunk.js": "/magic-app/static/js/2.dd4df53d.chunk.js",
     "static/js/2.dd4df53d.chunk.js.map": "/magic-app/static/js/2.dd4df53d.chunk.js.map",
     "index.html": "/magic-app/index.html",
-    "precache-manifest.7cfdc389234a7ca0aff147a213082287.js": "/magic-app/precache-manifest.7cfdc389234a7ca0aff147a213082287.js",
+    "precache-manifest.8a9308d4d576b58209d5fead8799df39.js": "/magic-app/precache-manifest.8a9308d4d576b58209d5fead8799df39.js",
     "service-worker.js": "/magic-app/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/magic-app/static/css/2.510409cd.chunk.css.map",
     "static/css/main.b100e6da.chunk.css.map": "/magic-app/static/css/main.b100e6da.chunk.css.map",
@@ -115,6 +115,6 @@
     "static/css/2.510409cd.chunk.css",
     "static/js/2.dd4df53d.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.5d458c28.chunk.js"
+    "static/js/main.4e5b2079.chunk.js"
   ]
 }

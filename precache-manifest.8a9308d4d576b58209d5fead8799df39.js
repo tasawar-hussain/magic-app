@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "858e5932012be51b8c7f9522b651ec1c",
+    "revision": "14ae99cba575e451aef89789b5a6215a",
     "url": "/magic-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magic-app/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "1458a19c03efb8e0eacc",
+    "revision": "2bb928969b1841732370",
     "url": "/magic-app/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magic-app/static/js/2.dd4df53d.chunk.js"
   },
   {
-    "revision": "1458a19c03efb8e0eacc",
-    "url": "/magic-app/static/js/main.5d458c28.chunk.js"
+    "revision": "2bb928969b1841732370",
+    "url": "/magic-app/static/js/main.4e5b2079.chunk.js"
   },
   {
     "revision": "ee4ce9443b79222e5567",
