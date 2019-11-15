@@ -55,7 +55,7 @@ class IconItems extends Component {
   render() {
     const { iconItems, showResult } = this.state;
 
-    shuffleArray(iconItems);
+    // shuffleArray(iconItems);
     return (
       <div
         style={mainStyle}

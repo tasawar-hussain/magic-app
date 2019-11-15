@@ -6,10 +6,19 @@ import IconItems from "./components/iconItems";
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" component={Landing} />
-      <Route path="/icons-list" component={IconItems} />
+      <Route exact path={routes.index.path} component={Landing} />
+      <Route exact path={routes.iconsList.path} component={IconItems} />
     </Switch>
   );
+};
+
+export const routes = {
+  index: {
+    path: "/magic-app/"
+  },
+  iconsList: {
+    path: "/magic-app/icons-list/"
+  }
 };
 
 export default Routes;

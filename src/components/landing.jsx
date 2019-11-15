@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import { mainStyle } from "./styles";
+import { routes } from "../routes";
 
 const Landing = () => {
   return (
@@ -22,7 +23,7 @@ const Landing = () => {
         remeber the image against the finnal result
       </p>
       <p className="lead">
-        <Link className="btn btn-primary btn-lg" to="/icons-list">
+        <Link className="btn btn-primary btn-lg" to={routes.iconsList.path}>
           Get Started
         </Link>
       </p>

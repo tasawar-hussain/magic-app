@@ -2,6 +2,7 @@
   "name": "magic-paper",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tasawar-hussain.github.io/magic-app/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
@@ -11,8 +12,10 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
