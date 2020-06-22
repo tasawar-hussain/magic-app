@@ -15,7 +15,7 @@ class IconItems extends Component {
     this.state = {
       toBeGuessed: randomNo,
       showResult: false,
-      iconItems: []
+      iconItems: [],
     };
   }
 
@@ -65,6 +65,11 @@ class IconItems extends Component {
           this.renderResult()
         ) : (
           <React.Fragment>
+            <div className="d-flex flex-wrap align-content-center">
+              {iconItems.map((iconItem) => (
+                <IconItem key={iconItem.label} iconItem={iconItem} />
+              ))}
+            </div>
             <button
               style={float}
               className="btn btn-success"
@@ -72,9 +77,6 @@ class IconItems extends Component {
             >
               Read Mind's Image
             </button>
-            {iconItems.map(iconItem => (
-              <IconItem key={iconItem.label} iconItem={iconItem} />
-            ))}
           </React.Fragment>
         )}
       </div>
